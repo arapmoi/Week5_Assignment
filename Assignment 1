@@ -1,0 +1,19 @@
+class Book:
+    def __init__(self, title, author):
+        # Constructor initializes each Book object with unique title and author
+        self.title = title
+        self.author = author
+
+    def __str__(self):
+        return f"📖 '{self.title}' by {self.author}"
+
+
+# Creating multiple Book objects with unique values
+book1 = Book("Things Fall Apart", "Chinua Achebe")
+book2 = Book("The Great Gatsby", "F. Scott Fitzgerald")
+book3 = Book("The Alchemist", "Paulo Coelho")
+
+# Printing each book
+print(book1)
+print(book2)
+print(book3)
